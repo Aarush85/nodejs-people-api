@@ -36,12 +36,24 @@ npm install
 
 4. **Create a `.env` file manually** in the root of the `backend` directory and add the following content:
 
-> 🔐 Replace the `MONGODB_URI` with your own MongoDB URI (local or Atlas):
+### Option 1: Using MongoDB Atlas (Cloud)
 
 ```env
 PORT=3000
 MONGODB_URI="mongodb+srv://<your-username>:<your-password>@cluster1.qe2fn90.mongodb.net/persondb"
 ```
+
+Replace `<your-username>` and `<your-password>` with your Atlas credentials.
+
+### Option 2: Using MongoDB Compass (Local)
+
+```env
+PORT=3000
+MONGODB_URI="mongodb://localhost:27017/persondb"
+```
+
+Make sure your local MongoDB server is running on port `27017`.
+
 
 ## Running the Application
 
