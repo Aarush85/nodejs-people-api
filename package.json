@@ -1,0 +1,23 @@
+{
+  "name": "people-management-backend",
+  "version": "1.0.0",
+  "description": "RESTful API for managing people",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "mongoose": "5.12.15",
+    "cors": "2.8.5",
+    "dotenv": "8.6.0",
+    "zod": "3.9.8"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.15"
+  },
+  "engines": {
+    "node": "12.22.12"
+  }
+}
