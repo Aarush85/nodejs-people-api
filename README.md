@@ -122,7 +122,6 @@ backend/
 
 * `npm start` – Start the server
 * `npm run dev` – Start server with nodemon (auto reloads on file changes)
-* `npm test` – Run tests (if implemented)
 
 ## Dependencies
 
