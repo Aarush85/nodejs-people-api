@@ -3,6 +3,12 @@
 A RESTful API built with Node.js, Express, and MongoDB for managing people records.  
 This backend service is designed to work seamlessly with the Angular 8 frontend application.
 
+## 🎥 Walkthrough Videos
+- [Complete Project Demo (15 mins)](https://youtu.be/vrPtOjTo9MI) - Full walkthrough including:
+  - Frontend and backend folder structure overview
+  - API testing and validation
+  - Angular application demo with CRUD operations
+
 ## Prerequisites
 
 - Node.js v12.22.12 (required for compatibility)
